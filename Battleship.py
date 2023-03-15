@@ -167,7 +167,7 @@ class ActionField(Field):
                     hit = True
             if not hit:
                 print('\n-----Мимо!-----\n')
-                self.field[dot.coordinate_x][dot.coordinate_y] = 'О'
+                self.field[dot.coordinate_x][dot.coordinate_y] = 'T'
         return hit
 
 
