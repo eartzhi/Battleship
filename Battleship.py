@@ -255,7 +255,7 @@ class AIPlayer(Player):
 class Game:
 
     def __init__(self):
-        self.player1 = AIPlayer(fleet1=fleet_player1, fleet2=fleet_player2,
+        self.player1 = Player(fleet1=fleet_player1, fleet2=fleet_player2,
                               name='Игрок')
         self.player2 = AIPlayer(fleet1=fleet_player2, fleet2=fleet_player1,
                                 name='Компьютер')
